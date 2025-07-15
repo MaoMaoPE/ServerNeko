@@ -1,0 +1,10 @@
+jdk:
+ - openjdk17
+
+maven-install:
+ - mvn clean
+ - mvn package
+
+mvnd-install:
+ - mvnd clean
+ - mvnd package
